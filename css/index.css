@@ -1,3 +1,113 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
 
 
+body {
+color: #232323;
+}
+
+.container {
+	max-width: 910px;
+	padding: 0 15px;
+	width: 100%;
+	margin:	 0 auto;
+}
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 500px) {
+
+}
+
+.nav {
+padding: 30px 0;
+background-color: #bdbdbd;
+}
+
+.nav a {
+margin-right: 62px;
+text-decoration: none;
+color: dodgerblue;
+display: inline-block;
+transform: translateY(-10px);
+
+}
+
+.header {
+padding: 50px;
+}
+
+.heading-wrapper {
+text-align: center;
+display: inline-block;
+padding: 50px;
+float: left;
+}
+
+.heading {
+font-size: 72px;
+margin-bottom: 20px;
+}
+
+.img-wrapper {
+display: inline-block;
+}
+
+.group:before,
+.group:after {
+content: "";
+display: table;
+}
+.group:after {
+clear: both;
+}
+.group {
+zoom: 1;
+}
+
+.btn {
+display: inline-block;
+text-decoration: none;
+color: inherit;
+padding: 8px 60px;
+border: 1px solid black;
+}
+
+.top-section,
+.bottom-section,
+.contact-section {
+padding: 30px 0;
+text-align: justify;
+}
+
+.top-section article {
+display: inline-block;
+width: 49.8%;
+padding-right: 20px;
+}
+
+.bottom-section article {
+display: inline-block;
+width: 33%;
+padding-right: 20px;
+}
+
+footer {
+text-align: center;
+font-size: 14px;
+padding: 15px 0;
+}
